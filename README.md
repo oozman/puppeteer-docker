@@ -21,3 +21,9 @@ docker run -v /Users/johndoe/awesomeapp:/app -t oozman/puppeteer
   ```
   const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
   ```
+
+## Container Info
+This container has the following pre-installed:
+* node 8.5+
+* npm 5.3+
+* yarn 
